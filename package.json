@@ -1,0 +1,11 @@
+{
+  "name": "personalweb",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "visual:check": "node scripts/visual-check.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.54.0"
+  }
+}

@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      id="meta-description"
+      name="description"
+      content="Javier Bordallo Platero, Data & AI Engineer especializado en datos, simulación, automatización y arquitecturas de IA aplicadas."
+    />
+    <meta
+      id="meta-og-title"
+      property="og:title"
+      content="Javier Bordallo Platero | Data & AI Engineer"
+    />
+    <meta
+      id="meta-og-description"
+      property="og:description"
+      content="Perfil profesional orientado a datos, simulación, automatización y soluciones de IA aplicadas a negocio."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#10151d" />
+    <link rel="icon" type="image/png" href="logo/logo_sin_fondo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Javier Bordallo Platero | Data & AI Engineer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header
+      class="site-header"
+      data-i18n-aria-label="header.ariaLabel"
+      aria-label="Navegación principal"
+    >
+      <a
+        class="brand"
+        href="#inicio"
+        data-i18n-aria-label="brand.ariaLabel"
+        aria-label="Ir al inicio"
+      >
+        <img
+          class="brand-logo"
+          src="logo/logo_sin_fondo.png"
+          alt="Logo de Javier Bordallo Platero"
+        />
+        <span class="brand-text">Javier Bordallo Platero</span>
+      </a>
+      <div class="header-controls">
+        <nav class="nav-links">
+          <a href="#perfil" data-i18n="nav.profile">Perfil</a>
+          <a href="#experiencia" data-i18n="nav.experience">Experiencia</a>
+          <a href="#capacidades" data-i18n="nav.skills">Capacidades</a>
+          <a href="#soluciones" data-i18n="nav.solutions">Soluciones</a>
+          <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+        </nav>
+        <button
+          class="language-toggle"
+          id="languageToggle"
+          type="button"
+          data-i18n-aria-label="languageToggle.ariaLabel"
+          aria-label="Cambiar idioma"
+        >
+          <span class="language-option" data-lang-option="es">ES</span>
+          <span class="language-separator">/</span>
+          <span class="language-option" data-lang-option="en">EN</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section
+        class="hero"
+        data-i18n-aria-label="hero.ariaLabel"
+        aria-label="Presentación principal"
+      >
+        <canvas id="skillGraph" aria-hidden="true"></canvas>
+        <div class="hero-content">
+          <div class="hero-mark" aria-hidden="true">
+            <img src="logo/logo_sin_fondo.png" alt="" />
+          </div>
+          <h1 data-i18n="hero.title">Pensemos en ser más libres</h1>
+          <p class="hero-subtitle">Javier Bordallo Platero · Data & AI Engineer</p>
+          <p class="hero-copy" data-i18n="hero.copy">
+            Diseño de soluciones con datos, simulación e inteligencia artificial aplicadas a
+            problemas reales.
+          </p>
+          <div
+            class="hero-actions"
+            data-i18n-aria-label="hero.actionsAriaLabel"
+            aria-label="Acciones principales"
+          >
+            <a class="button primary" href="#soluciones" data-i18n="hero.primaryCta"
+              >Qué puedo construir</a
+            >
+            <a class="button secondary" href="#contacto" data-i18n="hero.secondaryCta"
+              >Hablemos</a
+            >
+          </div>
+        </div>
+
+        <aside
+          class="profile-panel"
+          data-i18n-aria-label="profilePanel.ariaLabel"
+          aria-label="Resumen rápido"
+        >
+          <p class="panel-label" data-i18n="profilePanel.label">Perfil actual</p>
+          <div class="profile-role">
+            <strong>Data & AI Engineer</strong>
+          </div>
+          <dl>
+            <div>
+              <dt data-i18n="profilePanel.originLabel">Origen</dt>
+              <dd data-i18n="profilePanel.originValue">Villagarcía de la Torre, Badajoz</dd>
+            </div>
+            <div>
+              <dt data-i18n="profilePanel.locationLabel">Residencia</dt>
+              <dd data-i18n="profilePanel.locationValue">Gijón, Asturias</dd>
+            </div>
+            <div>
+              <dt data-i18n="profilePanel.foundationLabel">Base técnica</dt>
+              <dd data-i18n="profilePanel.foundationValue">Datos, simulación y desarrollo</dd>
+            </div>
+            <div>
+              <dt data-i18n="profilePanel.stackLabel">Stack principal</dt>
+              <dd data-i18n="profilePanel.stackValue">
+                Python, C#, SQL, Power BI, Kubernetes e IA aplicada
+              </dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section
+        id="perfil"
+        class="section intro"
+        data-i18n-aria-label="profileSection.ariaLabel"
+        aria-label="Perfil profesional"
+      >
+        <div>
+          <p class="section-label" data-i18n="profileSection.label">Perfil</p>
+          <h2 data-i18n="profileSection.title">
+            Formación científica, mentalidad de ingeniería y foco absoluto en resolver.
+          </h2>
+        </div>
+        <div class="intro-copy">
+          <p data-i18n="profileSection.paragraph1">
+            Estoy terminando el grado en Física y esa base condiciona mi forma de trabajar:
+            entender sistemas, modelar el problema correcto y apoyarme en herramientas
+            técnicas potentes para llegar a una solución clara.
+          </p>
+          <p data-i18n="profileSection.paragraph2">
+            Mi perfil ha evolucionado desde el análisis de datos hasta la ingeniería de
+            datos y, ahora, hacia la construcción de arquitecturas y productos apoyados en
+            IA. Me interesa especialmente hacer que soluciones avanzadas sean útiles,
+            sostenibles y económicamente razonables para quien las necesita.
+          </p>
+        </div>
+      </section>
+
+      <section
+        id="experiencia"
+        class="section timeline-section"
+        data-i18n-aria-label="experienceSection.ariaLabel"
+        aria-label="Trayectoria profesional"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="section-label" data-i18n="experienceSection.label">Experiencia</p>
+            <h2 data-i18n="experienceSection.title">
+              Una progresión natural desde los datos hacia sistemas más inteligentes.
+            </h2>
+          </div>
+          <p class="section-intro" data-i18n="experienceSection.intro">
+            Cuento con 4 años de experiencia en el sector, formación continua y una
+            atención constante a las últimas novedades, siempre con foco en llevar esa
+            evolución a soluciones reales.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-step">01</span>
+            <div>
+              <h3 data-i18n="timeline.analystTitle">Analista de datos</h3>
+              <p data-i18n="timeline.analystCopy">
+                Empecé trabajando con análisis, visualización y soporte a la toma de
+                decisiones mediante Python, SQL, Power BI y procesos de tratamiento de
+                datos.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-step">02</span>
+            <div>
+              <h3 data-i18n="timeline.simulationTitle">
+                Ingeniero de datos especializado en simulación
+              </h3>
+              <p data-i18n="timeline.simulationCopy">
+                Pasé a construir soluciones más técnicas y me convertí en el referente en
+                simulación dentro del equipo de datos, trabajando sobre problemas donde no
+                basta con medir: hay que modelar y anticipar comportamiento.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-step">03</span>
+            <div>
+              <h3>Data & AI Engineer</h3>
+              <p data-i18n="timeline.aiEngineerCopy">
+                Actualmente investigo y desarrollo arquitecturas con agentes de IA,
+                asistentes, automatizaciones y despliegues tanto en Kubernetes como en
+                entornos locales, buscando soluciones prácticas y bien planteadas.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="capacidades" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="section-label" data-i18n="skillsSection.label">Capacidades</p>
+            <h2 data-i18n="skillsSection.title">
+              Trabajo bien cuando el problema exige pensar, modelar y construir.
+            </h2>
+          </div>
+          <p class="section-intro" data-i18n="skillsSection.intro">
+            No me limito a una sola capa del stack. Puedo moverme desde el análisis hasta
+            la implantación técnica, manteniendo siempre el objetivo de negocio a la vista.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span>01</span>
+            <h3>Data & Analytics</h3>
+            <p data-i18n="skills.analyticsCopy">
+              Análisis exploratorio, SQL, visualización y cuadros de mando enfocados a
+              decisiones operativas y seguimiento real.
+            </p>
+          </article>
+          <article class="skill-card">
+            <span>02</span>
+            <h3 data-i18n="skills.modelingTitle">Simulación y modelado</h3>
+            <p data-i18n="skills.modelingCopy">
+              Diseño de modelos y enfoque cuantitativo para entender sistemas complejos y
+              evaluar escenarios antes de ejecutarlos.
+            </p>
+          </article>
+          <article class="skill-card">
+            <span>03</span>
+            <h3 data-i18n="skills.automationTitle">Automatización y software</h3>
+            <p data-i18n="skills.automationCopy">
+              Desarrollo de herramientas con Python y C# para eliminar trabajo manual,
+              conectar piezas y llevar una solución hasta producción.
+            </p>
+          </article>
+          <article class="skill-card">
+            <span>04</span>
+            <h3 data-i18n="skills.aiTitle">IA aplicada y agentes</h3>
+            <p data-i18n="skills.aiCopy">
+              Arquitecturas de IA, asistentes, bots y agentes conectados con datos,
+              procesos y despliegues locales o sobre Kubernetes.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section
+        id="soluciones"
+        class="section solutions"
+        data-i18n-aria-label="solutionsSection.ariaLabel"
+        aria-label="Tipos de soluciones"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="section-label" data-i18n="solutionsSection.label">Soluciones</p>
+            <h2 data-i18n="solutionsSection.title">
+              Estas son las clases de sistemas que más sentido tiene construir conmigo.
+            </h2>
+          </div>
+        </div>
+
+        <div class="project-list">
+          <article class="project-item">
+            <div>
+              <p class="project-tag" data-i18n="projects.dataTag">Datos</p>
+              <h3 data-i18n="projects.dataTitle">
+                Pipelines, reporting y automatización operativa
+              </h3>
+              <p data-i18n="projects.dataCopy">
+                Sistemas que unifican datos, reducen tareas repetitivas y convierten la
+                información dispersa en procesos fiables y accionables.
+              </p>
+            </div>
+            <span data-i18n="projects.dataStack">Python · SQL · Power BI</span>
+          </article>
+
+          <article class="project-item">
+            <div>
+              <p class="project-tag" data-i18n="projects.modelingTag">Modelado</p>
+              <h3 data-i18n="projects.modelingTitle">
+                Simulación para soporte a decisiones
+              </h3>
+              <p data-i18n="projects.modelingCopy">
+                Soluciones para analizar escenarios, probar hipótesis y entender el impacto
+                de cambios complejos antes de llevarlos a operación.
+              </p>
+            </div>
+            <span data-i18n="projects.modelingStack">Modelado · Análisis · Ingeniería</span>
+          </article>
+
+          <article class="project-item">
+            <div>
+              <p class="project-tag" data-i18n="projects.aiTag">IA aplicada</p>
+              <h3 data-i18n="projects.aiTitle">Asistentes, bots y arquitecturas con agentes</h3>
+              <p data-i18n="projects.aiCopy">
+                Diseños de soluciones de IA conectadas con conocimiento, herramientas y
+                procesos reales, desplegables en local o en infraestructura cloud-native.
+              </p>
+            </div>
+            <span data-i18n="projects.aiStack">LLMs · Agentes · Kubernetes</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="contacto" class="section contact">
+        <div>
+          <p class="section-label" data-i18n="contactSection.label">Contacto</p>
+          <h2 data-i18n="contactSection.title">
+            Si el reto mezcla datos, software e IA, probablemente podamos entendernos.
+          </h2>
+          <p data-i18n="contactSection.copy">
+            Esta primera versión deja preparado el espacio para compartir canales reales de
+            contacto y empezar a convertir la web en una base seria de marca personal.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:tu.email@example.com" target="_blank" rel="noreferrer">
+            <span data-i18n="contactSection.emailLabel">Email</span>
+            <strong>tu.email@example.com</strong>
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+            <span>LinkedIn</span>
+            <strong data-i18n="contactSection.linkedinValue">Perfil profesional</strong>
+          </a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">
+            <span>GitHub</span>
+            <strong data-i18n="contactSection.githubValue">Repos y pruebas</strong>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Javier Bordallo Platero. Data & AI Engineer.</p>
+      <a href="#inicio" data-i18n="footer.backToTop">Volver arriba</a>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
