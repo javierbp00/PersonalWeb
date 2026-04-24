@@ -654,7 +654,7 @@ dd {
   }
 
   .hero-mark {
-    top: -88px;
+    top: -72px;
     left: 50%;
     width: min(58vw, 230px);
     transform: translateX(-50%);
